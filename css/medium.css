@@ -1,10 +1,9 @@
-/* @media (min-width: 768px){
+/* @media (min-width: 640px){
     
 } */
 
 .header-img{
     background-image: url(../img/header/train-62849_1280.jpg);
-    /* background-position: center%; */
     background-position: 80% 75%;
 }
 
@@ -18,3 +17,7 @@
 
 /* MAIN */
 
+.first-product, .second-product, .third-product, .fourth-product {
+    background-image: url(../img/header/train-62849_1280.jpg);
+    background-position: 80% 75%;
+}
