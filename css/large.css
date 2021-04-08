@@ -1,0 +1,33 @@
+/* (min-width: 992px) */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+    height: 60px;
+    text-align: center;
+    font-size: 0;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.nav-desktop li a {
+    width: 200px;
+    padding: 20px 75px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+    transition: color .3s, background-color .3s;
+}
+
+.nav-desktop li a:hover{
+    color: rgb(55, 94, 212);
+}
