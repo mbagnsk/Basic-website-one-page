@@ -4,7 +4,8 @@
 
 .header-img{
     background-image: url(../img/header/train-62849_1280.jpg);
-    background-position: center 75%;
+    /* background-position: center%; */
+    background-position: 80% 75%;
 }
 
 .header-text h1 {
