@@ -6,12 +6,15 @@
 
 .nav-desktop {
     display: block;
+    width: 1000px;
     height: 60px;
-    text-align: center;
+    margin: 0 auto;
     font-size: 0;
 }
 
 .nav-desktop li {
+    display: block;
+    width: 250px;
     list-style: none;
     display: inline-block;
     font-size: 20px;
@@ -29,5 +32,17 @@
 }
 
 .nav-desktop li a:hover{
-    color: rgb(55, 94, 212);
+    color: rgb(0, 140, 255)
+}
+
+/* HEADER */
+.header-img{
+    background-image: url(../img/header/train-62849_1920.jpg);
+    background-position: center 80%;
+}
+
+/* MAIN */
+
+.main-product {
+    width: 50%;
 }

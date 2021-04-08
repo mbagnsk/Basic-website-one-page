@@ -8,6 +8,24 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.hero-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
 nav {
     height: 60px;
     line-height: 60px;
@@ -29,4 +47,95 @@ nav {
 
 .nav-desktop {
     display: none;
+}
+
+
+/* HEADER */
+
+.header-img{
+    position: relative;
+    height: 330px;
+    background-image: url(../img/header/train-62849_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.header-text h1 span {
+    color:rgb(0, 140, 255)
+}
+
+/* MAIN */
+.products {
+    font-size: 0;
+}
+
+.wrapper h2 {
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.wrapper p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.main-product {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-product {
+    background-image: url(../img/header/train-62849_640.jpg);
+}
+
+.second-product {
+    background-image: url(../img/header/train-62849_640.jpg);
+}
+
+.third-product {
+    background-image: url(../img/header/train-62849_640.jpg);
+}
+
+.fourth-product {
+    background-image: url(../img/header/train-62849_640.jpg);
+}
+
+.product-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+}
+
+.product-text h3 {
+    margin: 5px 0;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+@media (min-width: 400){
+    .header-text p {
+        font-size: 20px;
+    }
 }
