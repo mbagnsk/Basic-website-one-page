@@ -4,8 +4,13 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    background: linear-gradient(180deg, rgba(9, 49, 121, 0.04) 75%, rgba(194, 192, 192) 95%);
 }
 
 .hero-bg {
@@ -24,11 +29,14 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     height: 60px;
     line-height: 60px;
     text-align: center;
     background-color: rgb(192, 192, 192);
     overflow: hidden;
+    z-index: 2;
 }
 
 .nav-mobile {
@@ -81,13 +89,12 @@ nav {
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 30px;
     width: 100%;
     max-width: 1000px;
 }
 
 .wrapper .font-size-h2 {
-    margin: 15px 0;
+    margin: 40px 0;
     font-size: 30px;
 }
 
@@ -104,7 +111,7 @@ nav {
     background-color: rgb(0, 140, 255);
 }
 .wrapper p {
-    margin-bottom: 20px;
+    margin:0 20px 20px;
     font-size: 16px;
 }
 
@@ -156,6 +163,33 @@ nav {
     font-size: 25px;
     transition: transform .3s;
     cursor: pointer;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact i {
+    font-size: 30px;
+}
+
+.in-line-block{
+    display: inline-block;
+}
+.contact .contact-details {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgb(192, 192, 192);;
 }
 
 @media (min-width: 400){

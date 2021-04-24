@@ -46,3 +46,12 @@
 .main-product {
     width: 50%;
 }
+
+.wrapper p {
+    margin: 0;
+}
+
+/* FOOTER */
+.footer {
+    font-size: 12px;
+}
